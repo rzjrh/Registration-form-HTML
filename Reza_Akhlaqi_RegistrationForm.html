@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+</head>
+<meta name="description" content="This webpage is for Registration form">
+
+<body>
+    <form>
+        <table width="500" border="0">
+            <thead>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td colspan="2"><h2 align=center>My registration form</h2></td>
+                    
+                </tr>
+                <tr>
+                    <td><label for="first_name">First Name:</label></td>
+                    <td><input type="text" id="first_name" name="first_name " size="20"></td>
+                </tr>
+                <tr>
+                    <td><label for="last_name">Last Name:</label></td>
+                    <td><input type="text" id="last_name" name="last_name" size="20"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="text" id="email" name="email"size="20"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" id="password" name="password"size="20"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="password">Confirm Your Password:</label></td>
+                    <td><input type="password" id="password" name="password" size="20"></td>
+                </tr>
+                <tr>
+                    <td><label for="bday">Birthday:</label></td>
+                    <td><input type="date" name="bday"size="20"></td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <p>
+            <b>Select your Gender:</b> &nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">&nbsp;&nbsp;&nbsp;
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">&nbsp;&nbsp;&nbsp;
+            <label for="decline">Prefer not to say</label>
+            <input type="radio" id="decline" name="gender" value="decline">
+        </p>
+        <br><br> A short description about yourself: <br>
+        <textarea cols="65" rows="10" name="description"></textarea><br>
+
+        <br>your favorite language:
+        <select name="language">
+            <option value="JavaScript">JavaScript</option>
+            <option value="CSS">CSS</option>
+            <option value="HTML">HTML</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Click Here to Submit">
+    </form>
+</body>
+
+
+
+</html>
